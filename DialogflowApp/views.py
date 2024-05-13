@@ -58,11 +58,27 @@ def get_team_squad(request):
     team_name = json.loads(request.body)["intentInfo"]["parameters"]["team"][
         "resolvedValue"
     ]
+    print(json.loads(request.body))
+    id_list = []
     team = Team.objects.get(name=team_name)
     players_list = Player.objects.filter(team_id=team)
-    response_text = f"За {team_name} грають {len(players_list)} гравців:\n"
+    response_text = f"За {team_name} "
+
+    if len(players_list) % 10 == 1:
+        response_text += f"грає {len(players_list)} "
+    else:
+        response_text += f"грають {len(players_list)} "
+
+    if len(players_list) % 10 == 1:
+        response_text += "гравець:\n"
+    elif len(players_list) % 10 in [2, 3, 4]:
+        response_text += "гравця:\n"
+    else:
+        "гравців:\n"
+
     for index, player in enumerate(players_list):
         response_text += f"{index+1}. {player.name}\n"
+        id_list.append(player.id)
 
     return JsonResponse(
         {
@@ -75,6 +91,7 @@ def get_team_squad(request):
                     },
                 ],
             },
+            "sessionInfo": {"parameters": {"teamSquadList": id_list}},
         }
     )
 
@@ -87,9 +104,11 @@ def get_player_description_by_ordinal(request):
         order = int(json.loads(request.body)["sessionInfo"]["parameters"]["ordinal"])
     elif "number" in json_request["sessionInfo"]["parameters"]:
         order = int(json.loads(request.body)["sessionInfo"]["parameters"]["number"])
-    team = Team.objects.get(name=team_name)
-    players_list = Player.objects.filter(team_id=team)
-    player = players_list[order - 1]
+    player = Player.objects.get(
+        id=json.loads(request.body)["sessionInfo"]["parameters"]["teamSquadList"][
+            order - 1
+        ]
+    )
     response_text = player_description_string(player)
     return JsonResponse(
         {
