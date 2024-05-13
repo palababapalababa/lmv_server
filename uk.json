@@ -1,0 +1,4428 @@
+{
+  "entities": [
+    {
+      "value": "Богдан Богданович",
+      "synonyms": [
+        "Богдан Богданович"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Клінт Капела",
+      "synonyms": [
+        "Клінт Капела"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Веслі Метьюз",
+      "synonyms": [
+        "Веслі Метьюз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Крістапс Порзінгіс",
+      "synonyms": [
+        "Крістапс Порзінгіс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Петті Міллс",
+      "synonyms": [
+        "Петті Міллс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ел Горфорд",
+      "synonyms": [
+        "Ел Горфорд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мухамед Гуйє",
+      "synonyms": [
+        "Мухамед Гуйє"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Сет Ланді",
+      "synonyms": [
+        "Сет Ланді"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джру Холідей",
+      "synonyms": [
+        "Джру Холідей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дрю Петерсон",
+      "synonyms": [
+        "Дрю Петерсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Майлз Норріс",
+      "synonyms": [
+        "Майлз Норріс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кобі Буфкін",
+      "synonyms": [
+        "Кобі Буфкін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ей Джей Гріффін",
+      "synonyms": [
+        "Ей Джей Гріффін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Джонсон",
+      "synonyms": [
+        "Джейлен Джонсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордан Волш",
+      "synonyms": [
+        "Джордан Волш"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джей Ді Девісон",
+      "synonyms": [
+        "Джей Ді Девісон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Сем Гаузер",
+      "synonyms": [
+        "Сем Гаузер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Трент Форрест",
+      "synonyms": [
+        "Трент Форрест"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Віт Крейчі",
+      "synonyms": [
+        "Віт Крейчі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Саддік Бей",
+      "synonyms": [
+        "Саддік Бей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Оньєка Оконгу",
+      "synonyms": [
+        "Оньєка Оконгу"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гаррісон Метьюз",
+      "synonyms": [
+        "Гаррісон Метьюз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ділан Віндлер",
+      "synonyms": [
+        "Ділан Віндлер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Де'Андре Хантер",
+      "synonyms": [
+        "Де'Андре Хантер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Трей Янг",
+      "synonyms": [
+        "Трей Янг"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бруно Фернандо",
+      "synonyms": [
+        "Бруно Фернандо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дежауантей Мюррей",
+      "synonyms": [
+        "Дежауантей Мюррей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джамал Мюррей",
+      "synonyms": [
+        "Джамал Мюррей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Квентон Джексон",
+      "synonyms": [
+        "Квентон Джексон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Домантас Сабоніс",
+      "synonyms": [
+        "Домантас Сабоніс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Трей Лайлз",
+      "synonyms": [
+        "Трей Лайлз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Террі Розьє",
+      "synonyms": [
+        "Террі Розьє"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Делон Райт",
+      "synonyms": [
+        "Делон Райт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нікола Вучевіч",
+      "synonyms": [
+        "Нікола Вучевіч"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "ДеМар ДеРозан",
+      "synonyms": [
+        "ДеМар ДеРозан"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Адама Саного",
+      "synonyms": [
+        "Адама Саного"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Макс Гайдеґґер",
+      "synonyms": [
+        "Макс Гайдеґґер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Анрі Дрелл",
+      "synonyms": [
+        "Анрі Дрелл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Онуралп Бітім",
+      "synonyms": [
+        "Онуралп Бітім"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Карлік Джонс",
+      "synonyms": [
+        "Карлік Джонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Айо Досунму",
+      "synonyms": [
+        "Айо Досунму"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Патрік Вільямс",
+      "synonyms": [
+        "Патрік Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ді Джей Стюард",
+      "synonyms": [
+        "Ді Джей Стюард"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейден Спрінгер",
+      "synonyms": [
+        "Джейден Спрінгер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ксав'є Тіллман",
+      "synonyms": [
+        "Ксав'є Тіллман"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Пейтон Прітчард",
+      "synonyms": [
+        "Пейтон Прітчард"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нееміас Кета",
+      "synonyms": [
+        "Нееміас Кета"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Оша Бріссетт",
+      "synonyms": [
+        "Оша Бріссетт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Святослав Михайлюк",
+      "synonyms": [
+        "Святослав Михайлюк"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Люк Корнет",
+      "synonyms": [
+        "Люк Корнет"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деррік Вайт",
+      "synonyms": [
+        "Деррік Вайт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейсон Тейтум",
+      "synonyms": [
+        "Джейсон Тейтум"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Браун",
+      "synonyms": [
+        "Джейлен Браун"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Жавонте Ґрін",
+      "synonyms": [
+        "Жавонте Ґрін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кобі Уайт",
+      "synonyms": [
+        "Кобі Уайт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Алекс Карузо",
+      "synonyms": [
+        "Алекс Карузо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Торрі Крейг",
+      "synonyms": [
+        "Торрі Крейг"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джастін Льюїс",
+      "synonyms": [
+        "Джастін Льюїс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дален Террі",
+      "synonyms": [
+        "Дален Террі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кемерон Джонсон",
+      "synonyms": [
+        "Кемерон Джонсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нік Клекстон",
+      "synonyms": [
+        "Нік Клекстон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Лонні Вокер IV",
+      "synonyms": [
+        "Лонні Вокер IV"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мікал Бріджес",
+      "synonyms": [
+        "Мікал Бріджес"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кейта Бейтс-Діоп",
+      "synonyms": [
+        "Кейта Бейтс-Діоп"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Денніс Сміт-молодший.",
+      "synonyms": [
+        "Денніс Сміт-молодший."
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Доріан Фінні-Сміт",
+      "synonyms": [
+        "Доріан Фінні-Сміт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бен Сіммонс",
+      "synonyms": [
+        "Бен Сіммонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Leaky Black",
+      "synonyms": [
+        "Leaky Black"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брайс МакГовенс",
+      "synonyms": [
+        "Брайс МакГовенс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Марк Вільямс",
+      "synonyms": [
+        "Марк Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джей Ті Тор",
+      "synonyms": [
+        "Джей Ті Тор"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Амарі Бейлі",
+      "synonyms": [
+        "Амарі Бейлі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джеймс Букнайт",
+      "synonyms": [
+        "Джеймс Букнайт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нік Річардс",
+      "synonyms": [
+        "Нік Річардс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тре Манн",
+      "synonyms": [
+        "Тре Манн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Алексей Покушевскі",
+      "synonyms": [
+        "Алексей Покушевскі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Вілсон",
+      "synonyms": [
+        "Джейлен Вілсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дарік Вайтхед",
+      "synonyms": [
+        "Дарік Вайтхед"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кевін Гуертер",
+      "synonyms": [
+        "Кевін Гуертер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Денніс Шрьодер",
+      "synonyms": [
+        "Денніс Шрьодер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ноа Клоуні",
+      "synonyms": [
+        "Ноа Клоуні"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейкоб Гілярд",
+      "synonyms": [
+        "Джейкоб Гілярд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Трендон Вотфорд",
+      "synonyms": [
+        "Трендон Вотфорд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кем Томас",
+      "synonyms": [
+        "Кем Томас"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кеон Джонсон",
+      "synonyms": [
+        "Кеон Джонсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дей'рон Шарпе",
+      "synonyms": [
+        "Дей'рон Шарпе"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Армоні Брукс",
+      "synonyms": [
+        "Армоні Брукс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Томас Браянт",
+      "synonyms": [
+        "Томас Браянт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Лугуенц Дорт",
+      "synonyms": [
+        "Лугуенц Дорт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Малік Монк",
+      "synonyms": [
+        "Малік Монк"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "ЛаМело Болл",
+      "synonyms": [
+        "ЛаМело Болл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Маркес Болден",
+      "synonyms": [
+        "Маркес Болден"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Грант Вільямс",
+      "synonyms": [
+        "Грант Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Коді Мартін",
+      "synonyms": [
+        "Коді Мартін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Майлз Бріджес",
+      "synonyms": [
+        "Майлз Бріджес"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Едмонд Самнер",
+      "synonyms": [
+        "Едмонд Самнер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Франк Нтілікіна",
+      "synonyms": [
+        "Франк Нтілікіна"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Василь Міцич",
+      "synonyms": [
+        "Василь Міцич"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Сет Каррі",
+      "synonyms": [
+        "Сет Каррі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Давис Бертанс",
+      "synonyms": [
+        "Давис Бертанс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Іш Сміт",
+      "synonyms": [
+        "Іш Сміт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гордон Хейворд",
+      "synonyms": [
+        "Гордон Хейворд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нік Сміт молодший",
+      "synonyms": [
+        "Нік Сміт молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брендон Міллер",
+      "synonyms": [
+        "Брендон Міллер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Натан Менса",
+      "synonyms": [
+        "Натан Менса"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ар Джей Хантер",
+      "synonyms": [
+        "Ар Джей Хантер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Андре Драммонд",
+      "synonyms": [
+        "Андре Драммонд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джуліан Філліпс",
+      "synonyms": [
+        "Джуліан Філліпс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Террі Тейлор",
+      "synonyms": [
+        "Террі Тейлор"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джевон Картер",
+      "synonyms": [
+        "Джевон Картер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нікола Йокич",
+      "synonyms": [
+        "Нікола Йокич"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Аарон Гордон",
+      "synonyms": [
+        "Аарон Гордон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кентавіус Колдвелл-Поуп",
+      "synonyms": [
+        "Кентавіус Колдвелл-Поуп"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джастін Холідей",
+      "synonyms": [
+        "Джастін Холідей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деандре Джордан",
+      "synonyms": [
+        "Деандре Джордан"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Хантер Тайсон",
+      "synonyms": [
+        "Хантер Тайсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джуліан Стротер",
+      "synonyms": [
+        "Джуліан Стротер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Пікетт",
+      "synonyms": [
+        "Джейлен Пікетт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тай Джером",
+      "synonyms": [
+        "Тай Джером"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Даріус Гарленд",
+      "synonyms": [
+        "Даріус Гарленд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Макс Струсь",
+      "synonyms": [
+        "Макс Струсь"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Жайре Сміт",
+      "synonyms": [
+        "Жайре Сміт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джаррет Аллен",
+      "synonyms": [
+        "Джаррет Аллен"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Донован Мітчелл",
+      "synonyms": [
+        "Донован Мітчелл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Каріс ЛеВерт",
+      "synonyms": [
+        "Каріс ЛеВерт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джорджес Ньянг",
+      "synonyms": [
+        "Джорджес Ньянг"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деміен Джонс",
+      "synonyms": [
+        "Деміен Джонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Зак ЛаВін",
+      "synonyms": [
+        "Зак ЛаВін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ендрю Фанк",
+      "synonyms": [
+        "Ендрю Фанк"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Армаан Франклін",
+      "synonyms": [
+        "Армаан Франклін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Коллін Гіллеспі",
+      "synonyms": [
+        "Коллін Гіллеспі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Пейтон Вотсон",
+      "synonyms": [
+        "Пейтон Вотсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Крістіан Браун",
+      "synonyms": [
+        "Крістіан Браун"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джаморко Пікетт",
+      "synonyms": [
+        "Джаморко Пікетт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джей Хафф",
+      "synonyms": [
+        "Джей Хафф"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Зік Наджі",
+      "synonyms": [
+        "Зік Наджі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Майкл Портер молодший",
+      "synonyms": [
+        "Майкл Портер молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Аміда Бріма",
+      "synonyms": [
+        "Аміда Бріма"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Декстер Денніс",
+      "synonyms": [
+        "Декстер Денніс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейден Харді",
+      "synonyms": [
+        "Джейден Харді"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "A.J. Лоусон",
+      "synonyms": [
+        "A.J. Лоусон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джо Візкемп",
+      "synonyms": [
+        "Джо Візкемп"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Грег Браун III",
+      "synonyms": [
+        "Грег Браун III"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брендон Вільямс",
+      "synonyms": [
+        "Брендон Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джош Грін",
+      "synonyms": [
+        "Джош Грін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деніел Гаффорд",
+      "synonyms": [
+        "Деніел Гаффорд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Лука Дончич",
+      "synonyms": [
+        "Лука Дончич"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Пі Джей Вашингтон",
+      "synonyms": [
+        "Пі Джей Вашингтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Максі Клебер",
+      "synonyms": [
+        "Максі Клебер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деррік Джонс молодший",
+      "synonyms": [
+        "Деррік Джонс молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Маркус Морріс",
+      "synonyms": [
+        "Маркус Морріс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Трістан Томпсон",
+      "synonyms": [
+        "Трістан Томпсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тім Гардевей молодший",
+      "synonyms": [
+        "Тім Гардевей молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Крейг Портер молодший",
+      "synonyms": [
+        "Крейг Портер молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джастін Павелл",
+      "synonyms": [
+        "Джастін Павелл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Піт Ненс",
+      "synonyms": [
+        "Піт Ненс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Емоні Бейтс",
+      "synonyms": [
+        "Емоні Бейтс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Моблі",
+      "synonyms": [
+        "Ісайя Моблі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Шаріф Купер",
+      "synonyms": [
+        "Шаріф Купер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Еван Моблі",
+      "synonyms": [
+        "Еван Моблі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Сем Меррілл",
+      "synonyms": [
+        "Сем Меррілл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісаак Окоро",
+      "synonyms": [
+        "Ісаак Окоро"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дін Вейд",
+      "synonyms": [
+        "Дін Вейд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Данкан Робінсон",
+      "synonyms": [
+        "Данкан Робінсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Лінді Вотерс III",
+      "synonyms": [
+        "Лінді Вотерс III"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Джо",
+      "synonyms": [
+        "Ісайя Джо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тарі Ісон",
+      "synonyms": [
+        "Тарі Ісон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джабарі Сміт молодший",
+      "synonyms": [
+        "Джабарі Сміт молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Рішон Холмс",
+      "synonyms": [
+        "Рішон Холмс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Реджі Джексон",
+      "synonyms": [
+        "Реджі Джексон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брекстон Кі",
+      "synonyms": [
+        "Брекстон Кі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Даріус Дейз",
+      "synonyms": [
+        "Даріус Дейз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Альперен Шенгюн",
+      "synonyms": [
+        "Альперен Шенгюн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дже'Шон Тейт",
+      "synonyms": [
+        "Дже'Шон Тейт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нейт Гінтон",
+      "synonyms": [
+        "Нейт Гінтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джок Лендейл",
+      "synonyms": [
+        "Джок Лендейл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Аарон Голідей",
+      "synonyms": [
+        "Аарон Голідей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Данте Ексум",
+      "synonyms": [
+        "Данте Ексум"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дуайт Пауелл",
+      "synonyms": [
+        "Дуайт Пауелл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Діллон Брукс",
+      "synonyms": [
+        "Діллон Брукс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Маркіфф Морріс",
+      "synonyms": [
+        "Маркіфф Морріс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кайрі Ірвінг",
+      "synonyms": [
+        "Кайрі Ірвінг"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Майк Майлз молодший",
+      "synonyms": [
+        "Майк Майлз молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дерек Лайвлі II",
+      "synonyms": [
+        "Дерек Лайвлі II"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Алекс Фадж",
+      "synonyms": [
+        "Алекс Фадж"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордан Вокер",
+      "synonyms": [
+        "Джордан Вокер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Олів'є-Максанс Проспер",
+      "synonyms": [
+        "Олів'є-Максанс Проспер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Маркус Сассер",
+      "synonyms": [
+        "Маркус Сассер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тосан Евбуомван",
+      "synonyms": [
+        "Тосан Евбуомван"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Малкольм Казалон",
+      "synonyms": [
+        "Малкольм Казалон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Симоне Фонтеккіо",
+      "synonyms": [
+        "Симоне Фонтеккіо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джален Дюрен",
+      "synonyms": [
+        "Джален Дюрен"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Ліверс",
+      "synonyms": [
+        "Ісайя Ліверс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кейд Каннінгем",
+      "synonyms": [
+        "Кейд Каннінгем"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Стенлі Умуде",
+      "synonyms": [
+        "Стенлі Умуде"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейден Айві",
+      "synonyms": [
+        "Джейден Айві"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джаред Роден",
+      "synonyms": [
+        "Джаред Роден"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бадді Бехайм",
+      "synonyms": [
+        "Бадді Бехайм"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кілліан Хейз",
+      "synonyms": [
+        "Кілліан Хейз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джеймс Уайсмен",
+      "synonyms": [
+        "Джеймс Уайсмен"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Новелл",
+      "synonyms": [
+        "Джейлен Новелл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Квентін Граймс",
+      "synonyms": [
+        "Квентін Граймс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Малакі Флінн",
+      "synonyms": [
+        "Малакі Флінн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Стюарт",
+      "synonyms": [
+        "Ісайя Стюарт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Чімезі Мету",
+      "synonyms": [
+        "Чімезі Мету"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кевін Нокс II",
+      "synonyms": [
+        "Кевін Нокс II"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Трой Браун",
+      "synonyms": [
+        "Трой Браун"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джером Робінсон",
+      "synonyms": [
+        "Джером Робінсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гері Пейтон ІІ",
+      "synonyms": [
+        "Гері Пейтон ІІ"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кевон Луні",
+      "synonyms": [
+        "Кевон Луні"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кріс Пол",
+      "synonyms": [
+        "Кріс Пол"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тайлер Херро",
+      "synonyms": [
+        "Тайлер Херро"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джо Гарріс",
+      "synonyms": [
+        "Джо Гарріс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Еван Фурньє",
+      "synonyms": [
+        "Еван Фурньє"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Боян Богданович",
+      "synonyms": [
+        "Боян Богданович"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордан Форд",
+      "synonyms": [
+        "Джордан Форд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Осар Томпсон",
+      "synonyms": [
+        "Осар Томпсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Олів'є Сарр",
+      "synonyms": [
+        "Олів'є Сарр"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Чет Гольмґрен",
+      "synonyms": [
+        "Чет Гольмґрен"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джош Гідді",
+      "synonyms": [
+        "Джош Гідді"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мейсон Джонс",
+      "synonyms": [
+        "Мейсон Джонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Самардо Семюелс",
+      "synonyms": [
+        "Самардо Семюелс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джефф Грін",
+      "synonyms": [
+        "Джефф Грін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Реджі Буллок",
+      "synonyms": [
+        "Реджі Буллок"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кем Вітмор",
+      "synonyms": [
+        "Кем Вітмор"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Амен Томпсон",
+      "synonyms": [
+        "Амен Томпсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Метью Майєр",
+      "synonyms": [
+        "Метью Майєр"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джінатан Вільямс",
+      "synonyms": [
+        "Джінатан Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тревор Хаджинс",
+      "synonyms": [
+        "Тревор Хаджинс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Грін",
+      "synonyms": [
+        "Джейлен Грін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Фред Ван Вліт",
+      "synonyms": [
+        "Фред Ван Вліт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бобан Мар'янович",
+      "synonyms": [
+        "Бобан Мар'янович"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Донован Вільямс",
+      "synonyms": [
+        "Донован Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Даріо Шарич",
+      "synonyms": [
+        "Даріо Шарич"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ендрю Віггінс",
+      "synonyms": [
+        "Ендрю Віггінс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Родні Макгрудер",
+      "synonyms": [
+        "Родні Макгрудер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дреймонд Грін",
+      "synonyms": [
+        "Дреймонд Грін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Корі Джозеф",
+      "synonyms": [
+        "Корі Джозеф"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Клей Томпсон",
+      "synonyms": [
+        "Клей Томпсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Стеф Каррі",
+      "synonyms": [
+        "Стеф Каррі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Руді Гей",
+      "synonyms": [
+        "Руді Гей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брандін Подзіємскі",
+      "synonyms": [
+        "Брандін Подзіємскі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джаван Джонсон",
+      "synonyms": [
+        "Джаван Джонсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Трейс Джексон-Девіс",
+      "synonyms": [
+        "Трейс Джексон-Девіс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кендрік Девіс",
+      "synonyms": [
+        "Кендрік Девіс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Лестер Кіньйонес",
+      "synonyms": [
+        "Лестер Кіньйонес"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гуй Сантос",
+      "synonyms": [
+        "Гуй Сантос"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Усман Гаруба",
+      "synonyms": [
+        "Усман Гаруба"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мозес Муді",
+      "synonyms": [
+        "Мозес Муді"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Пет Спенсер",
+      "synonyms": [
+        "Пет Спенсер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джонатан Кумінга",
+      "synonyms": [
+        "Джонатан Кумінга"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Даг МакДермотт",
+      "synonyms": [
+        "Даг МакДермотт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ті Джей Макконнелл",
+      "synonyms": [
+        "Ті Джей Макконнелл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джеймс Джонсон",
+      "synonyms": [
+        "Джеймс Джонсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Вонг",
+      "synonyms": [
+        "Ісайя Вонг"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джарас Вокер",
+      "synonyms": [
+        "Джарас Вокер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Оскар Чієбве",
+      "synonyms": [
+        "Оскар Чієбве"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бен Шеппард",
+      "synonyms": [
+        "Бен Шеппард"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кендалл Браун",
+      "synonyms": [
+        "Кендалл Браун"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бенедикт Матурін",
+      "synonyms": [
+        "Бенедикт Матурін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Джексон",
+      "synonyms": [
+        "Ісайя Джексон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Сміт",
+      "synonyms": [
+        "Джейлен Сміт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Аарон Несміт",
+      "synonyms": [
+        "Аарон Несміт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тайріз Халібертон",
+      "synonyms": [
+        "Тайріз Халібертон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Обі Топпін",
+      "synonyms": [
+        "Обі Топпін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ендрю Нембхард",
+      "synonyms": [
+        "Ендрю Нембхард"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Майлз Тернер",
+      "synonyms": [
+        "Майлз Тернер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ксав'є Мун",
+      "synonyms": [
+        "Ксав'є Мун"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Теранс Манн",
+      "synonyms": [
+        "Теранс Манн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Амір Коффі",
+      "synonyms": [
+        "Амір Коффі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Даніель Тайс",
+      "synonyms": [
+        "Даніель Тайс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Івіца Зубац",
+      "synonyms": [
+        "Івіца Зубац"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Норман Пауелл",
+      "synonyms": [
+        "Норман Пауелл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Зав'єр Сімпсон",
+      "synonyms": [
+        "Зав'єр Сімпсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Тодд",
+      "synonyms": [
+        "Ісайя Тодд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Десмонд Бане",
+      "synonyms": [
+        "Десмонд Бане"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кавай Леонард",
+      "synonyms": [
+        "Кавай Леонард"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ламар Стівенс",
+      "synonyms": [
+        "Ламар Стівенс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джон Кончар",
+      "synonyms": [
+        "Джон Кончар"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брендон Кларк",
+      "synonyms": [
+        "Брендон Кларк"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джа Морант",
+      "synonyms": [
+        "Джа Морант"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Юта Ватанабе",
+      "synonyms": [
+        "Юта Ватанабе"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Веньєн Габріель",
+      "synonyms": [
+        "Веньєн Габріель"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джарен Джексон молодший",
+      "synonyms": [
+        "Джарен Джексон молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Міхал Малдер",
+      "synonyms": [
+        "Міхал Малдер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Люк Кеннард",
+      "synonyms": [
+        "Люк Кеннард"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Шакіл Гаррісон",
+      "synonyms": [
+        "Шакіл Гаррісон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Роберт Ковінгтон",
+      "synonyms": [
+        "Роберт Ковінгтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мейсон Пламлі",
+      "synonyms": [
+        "Мейсон Пламлі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Пол Джордж",
+      "synonyms": [
+        "Пол Джордж"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ніколя Батум",
+      "synonyms": [
+        "Ніколя Батум"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Рассел Вестбрук",
+      "synonyms": [
+        "Рассел Вестбрук"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Пі Джей Такер",
+      "synonyms": [
+        "Пі Джей Такер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брайсон Вільямс",
+      "synonyms": [
+        "Брайсон Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордан Міллер",
+      "synonyms": [
+        "Джордан Міллер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кобі Браун",
+      "synonyms": [
+        "Кобі Браун"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Муса Діабате",
+      "synonyms": [
+        "Муса Діабате"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джошуа Прімо",
+      "synonyms": [
+        "Джошуа Прімо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Боунс Хайленд",
+      "synonyms": [
+        "Боунс Хайленд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брендон Бостон молодший",
+      "synonyms": [
+        "Брендон Бостон молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джеймс Харден",
+      "synonyms": [
+        "Джеймс Харден"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Девіон Мітчелл",
+      "synonyms": [
+        "Девіон Мітчелл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джамаль Каїн",
+      "synonyms": [
+        "Джамаль Каїн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Коул Свідер",
+      "synonyms": [
+        "Коул Свідер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Алондес Вільямс",
+      "synonyms": [
+        "Алондес Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Орландо Робінсон",
+      "synonyms": [
+        "Орландо Робінсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дру Сміт",
+      "synonyms": [
+        "Дру Сміт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нікола Йовіч",
+      "synonyms": [
+        "Нікола Йовіч"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Леброн Джеймс",
+      "synonyms": [
+        "Леброн Джеймс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Спенсер Дінвідд",
+      "synonyms": [
+        "Спенсер Дінвідд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ентоні Девіс",
+      "synonyms": [
+        "Ентоні Девіс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гаррі Джайлс",
+      "synonyms": [
+        "Гаррі Джайлс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Вінсент Валеріо-Бодон",
+      "synonyms": [
+        "Вінсент Валеріо-Бодон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Максвелл Льюїс",
+      "synonyms": [
+        "Максвелл Льюїс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Гуд-Скіфіно",
+      "synonyms": [
+        "Джейлен Гуд-Скіфіно"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Д'Мой Ходж",
+      "synonyms": [
+        "Д'Мой Ходж"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Колін Кастлтон",
+      "synonyms": [
+        "Колін Кастлтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дем'єн Бо",
+      "synonyms": [
+        "Дем'єн Бо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брайс Гамільтон",
+      "synonyms": [
+        "Брайс Гамільтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Макс Крісті",
+      "synonyms": [
+        "Макс Крісті"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Остін Рівз",
+      "synonyms": [
+        "Остін Рівз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Скайлар Мейс",
+      "synonyms": [
+        "Скайлар Мейс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джексон Хейз",
+      "synonyms": [
+        "Джексон Хейз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кем Реддіш",
+      "synonyms": [
+        "Кем Реддіш"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Габе Вінсент",
+      "synonyms": [
+        "Габе Вінсент"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Руй Хачімура",
+      "synonyms": [
+        "Руй Хачімура"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джарред Вандербільт",
+      "synonyms": [
+        "Джарред Вандербільт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Торін Прінс",
+      "synonyms": [
+        "Торін Прінс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Д'Анджело Расселл",
+      "synonyms": [
+        "Д'Анджело Расселл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Крістіан Вуд",
+      "synonyms": [
+        "Крістіан Вуд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "M. Перейра",
+      "synonyms": [
+        "M. Перейра"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Трей Джемісон",
+      "synonyms": [
+        "Трей Джемісон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джи-Джи Джексон",
+      "synonyms": [
+        "Джи-Джи Джексон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Метью Герт",
+      "synonyms": [
+        "Метью Герт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джек Уайт",
+      "synonyms": [
+        "Джек Уайт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Вінс Вільямс молодший",
+      "synonyms": [
+        "Вінс Вільямс молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейк ЛаРавія",
+      "synonyms": [
+        "Джейк ЛаРавія"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордан Гудвін",
+      "synonyms": [
+        "Джордан Гудвін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "ДеДжон Джарро",
+      "synonyms": [
+        "ДеДжон Джарро"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Скотті Піппен молодший",
+      "synonyms": [
+        "Скотті Піппен молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Санті Алдама",
+      "synonyms": [
+        "Санті Алдама"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Зіайре Вільямс",
+      "synonyms": [
+        "Зіайре Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлін Вільямс",
+      "synonyms": [
+        "Джейлін Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кіон Елліс",
+      "synonyms": [
+        "Кіон Елліс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джиммі Батлер",
+      "synonyms": [
+        "Джиммі Батлер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тоні Аллен",
+      "synonyms": [
+        "Тоні Аллен"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Маркус Смарт",
+      "synonyms": [
+        "Маркус Смарт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Віктор Оладіпо",
+      "synonyms": [
+        "Віктор Оладіпо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Стівен Адамс",
+      "synonyms": [
+        "Стівен Адамс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бісмак Бійомбо",
+      "synonyms": [
+        "Бісмак Бійомбо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деррік Роуз",
+      "synonyms": [
+        "Деррік Роуз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Патрік Міллс",
+      "synonyms": [
+        "Патрік Міллс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кевін Лав",
+      "synonyms": [
+        "Кевін Лав"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кайл Лоурі",
+      "synonyms": [
+        "Кайл Лоурі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Хайме Жакез молодший",
+      "synonyms": [
+        "Хайме Жакез молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "R.J. Хемптон",
+      "synonyms": [
+        "R.J. Хемптон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гейвуд Гайсміт",
+      "synonyms": [
+        "Гейвуд Гайсміт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Калеб Мартін",
+      "synonyms": [
+        "Калеб Мартін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бам Адебайо",
+      "synonyms": [
+        "Бам Адебайо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Шейк Діалло",
+      "synonyms": [
+        "Шейк Діалло"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джош Річардсон",
+      "synonyms": [
+        "Джош Річардсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Танасіс Адетокунбо",
+      "synonyms": [
+        "Танасіс Адетокунбо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Янніс Адетокунбо",
+      "synonyms": [
+        "Янніс Адетокунбо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кріс Міддлтон",
+      "synonyms": [
+        "Кріс Міддлтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джей Краудер",
+      "synonyms": [
+        "Джей Краудер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деміан Ліллард",
+      "synonyms": [
+        "Деміан Ліллард"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Патрік Беверлі",
+      "synonyms": [
+        "Патрік Беверлі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Робін Лопес",
+      "synonyms": [
+        "Робін Лопес"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брук Лопес",
+      "synonyms": [
+        "Брук Лопес"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Данило Галлінарі",
+      "synonyms": [
+        "Данило Галлінарі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Андре Джексон молодший",
+      "synonyms": [
+        "Андре Джексон молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дрю Тімме",
+      "synonyms": [
+        "Дрю Тімме"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Омарі Мур",
+      "synonyms": [
+        "Омарі Мур"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кріс Лівінгстон",
+      "synonyms": [
+        "Кріс Лівінгстон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джазіан Гортман",
+      "synonyms": [
+        "Джазіан Гортман"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Адріел Грін",
+      "synonyms": [
+        "Адріел Грін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Раян Роллінс",
+      "synonyms": [
+        "Раян Роллінс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тайрон Вашингтон молодший.",
+      "synonyms": [
+        "Тайрон Вашингтон молодший."
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Марджон Бошам",
+      "synonyms": [
+        "Марджон Бошам"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Лінделл Віггінтон",
+      "synonyms": [
+        "Лінделл Віггінтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Малік Бізлі",
+      "synonyms": [
+        "Малік Бізлі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Пет Коннагтон",
+      "synonyms": [
+        "Пет Коннагтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Боббі Портіс",
+      "synonyms": [
+        "Боббі Портіс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кайл Андерсон",
+      "synonyms": [
+        "Кайл Андерсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ті Джей Воррен",
+      "synonyms": [
+        "Ті Джей Воррен"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Руді Гобер",
+      "synonyms": [
+        "Руді Гобер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Майк Конлі",
+      "synonyms": [
+        "Майк Конлі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Леонард Міллер",
+      "synonyms": [
+        "Леонард Міллер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тайріс Мартін",
+      "synonyms": [
+        "Тайріс Мартін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тревор Кілз",
+      "synonyms": [
+        "Тревор Кілз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джош Мінотт",
+      "synonyms": [
+        "Джош Мінотт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Венделл Мур молодший",
+      "synonyms": [
+        "Венделл Мур молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Лука Гарза",
+      "synonyms": [
+        "Лука Гарза"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дайшен Нікс",
+      "synonyms": [
+        "Дайшен Нікс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейден Макденіелс",
+      "synonyms": [
+        "Джейден Макденіелс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ентоні Едвардc",
+      "synonyms": [
+        "Ентоні Едвардc"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Наз Рід",
+      "synonyms": [
+        "Наз Рід"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нікейл Олександр-Вокер",
+      "synonyms": [
+        "Нікейл Олександр-Вокер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордан Маклафлін",
+      "synonyms": [
+        "Джордан Маклафлін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Монте Морріс",
+      "synonyms": [
+        "Монте Морріс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джастін Джексон",
+      "synonyms": [
+        "Джастін Джексон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Карл-Ентоні Таунс",
+      "synonyms": [
+        "Карл-Ентоні Таунс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Герб Джонс",
+      "synonyms": [
+        "Герб Джонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джеремія Робінсон-Ерл",
+      "synonyms": [
+        "Джеремія Робінсон-Ерл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Наджі Маршалл",
+      "synonyms": [
+        "Наджі Маршалл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Метт Раян",
+      "synonyms": [
+        "Метт Раян"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Зайон Вільямсон",
+      "synonyms": [
+        "Зайон Вільямсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кайзер Гейтс",
+      "synonyms": [
+        "Кайзер Гейтс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брендон Інгрем",
+      "synonyms": [
+        "Брендон Інгрем"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дакуан Джеффріс",
+      "synonyms": [
+        "Дакуан Джеффріс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мамаді Діакіте",
+      "synonyms": [
+        "Мамаді Діакіте"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мітчелл Робінсон",
+      "synonyms": [
+        "Мітчелл Робінсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Шейк Мілтон",
+      "synonyms": [
+        "Шейк Мілтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Донте Дівінченцо",
+      "synonyms": [
+        "Донте Дівінченцо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Брансон",
+      "synonyms": [
+        "Джейлен Брансон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джош Гарт",
+      "synonyms": [
+        "Джош Гарт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Гартенштайн",
+      "synonyms": [
+        "Ісайя Гартенштайн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "О Джей Анунобі",
+      "synonyms": [
+        "О Джей Анунобі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Раян Арчідіаканоу",
+      "synonyms": [
+        "Раян Арчідіаканоу"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Коді Зеллер",
+      "synonyms": [
+        "Коді Зеллер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Сі Джей Макколлум",
+      "synonyms": [
+        "Сі Джей Макколлум"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Йонас Валанчюнас",
+      "synonyms": [
+        "Йонас Валанчюнас"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ландерс Ноллі II",
+      "synonyms": [
+        "Ландерс Ноллі II"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ліам Роббінс",
+      "synonyms": [
+        "Ліам Роббінс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тевіан Джонс",
+      "synonyms": [
+        "Тевіан Джонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордан Гокінс",
+      "synonyms": [
+        "Джордан Гокінс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дереон Сіброн",
+      "synonyms": [
+        "Дереон Сіброн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Броккінгтон",
+      "synonyms": [
+        "Ісайя Броккінгтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Малкольм Гілл",
+      "synonyms": [
+        "Малкольм Гілл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дайсон Деніелс",
+      "synonyms": [
+        "Дайсон Деніелс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Хосе Альварадо",
+      "synonyms": [
+        "Хосе Альварадо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Крутчер",
+      "synonyms": [
+        "Джейлен Крутчер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "E.J. Ліддел",
+      "synonyms": [
+        "E.J. Ліддел"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Трей Мерфі III",
+      "synonyms": [
+        "Трей Мерфі III"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ларрі Ненс-молодший",
+      "synonyms": [
+        "Ларрі Ненс-молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Олексі́й Лень",
+      "synonyms": [
+        "Олексі́й Лень"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джеремі Лемб",
+      "synonyms": [
+        "Джеремі Лемб"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Харрісон Барнс",
+      "synonyms": [
+        "Харрісон Барнс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джавейл Макгі",
+      "synonyms": [
+        "Джавейл Макгі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Саша Везенков",
+      "synonyms": [
+        "Саша Везенков"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Слосон",
+      "synonyms": [
+        "Джейлен Слосон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кесслер Едвардс",
+      "synonyms": [
+        "Кесслер Едвардс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Хуан Тоскано-Андерсон",
+      "synonyms": [
+        "Хуан Тоскано-Андерсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Майк Мускала",
+      "synonyms": [
+        "Майк Мускала"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "A. Флаглер",
+      "synonyms": [
+        "A. Флаглер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кейсон Воллес",
+      "synonyms": [
+        "Кейсон Воллес"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кейонте Джонсон",
+      "synonyms": [
+        "Кейонте Джонсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Усман Дьєн",
+      "synonyms": [
+        "Усман Дьєн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Вільямс",
+      "synonyms": [
+        "Джейлен Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Аарон Віггінс",
+      "synonyms": [
+        "Аарон Віггінс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кенріх Вільямс",
+      "synonyms": [
+        "Кенріх Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Шай Гілджес-Александер",
+      "synonyms": [
+        "Шай Гілджес-Александер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Девін Васселл",
+      "synonyms": [
+        "Девін Васселл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Келдон Джонсон",
+      "synonyms": [
+        "Келдон Джонсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Зак Коллінз",
+      "synonyms": [
+        "Зак Коллінз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Чеді Осман",
+      "synonyms": [
+        "Чеді Осман"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джуліус Рендл",
+      "synonyms": [
+        "Джуліус Рендл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Алек Беркс",
+      "synonyms": [
+        "Алек Беркс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Д. Скапінцев",
+      "synonyms": [
+        "Д. Скапінцев"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейкоб Топпін",
+      "synonyms": [
+        "Джейкоб Топпін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Мартін",
+      "synonyms": [
+        "Джейлен Мартін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дуейн Вашингтон молодший",
+      "synonyms": [
+        "Дуейн Вашингтон молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джеріко Сімс",
+      "synonyms": [
+        "Джеріко Сімс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Майлз Макбрайд",
+      "synonyms": [
+        "Майлз Макбрайд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Натан Найт",
+      "synonyms": [
+        "Натан Найт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Прешис Ачіува",
+      "synonyms": [
+        "Прешис Ачіува"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Чарлі Браун молодший",
+      "synonyms": [
+        "Чарлі Браун молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ісайя Робі",
+      "synonyms": [
+        "Ісайя Робі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Адмірал Скофілд",
+      "synonyms": [
+        "Адмірал Скофілд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Чума Океке",
+      "synonyms": [
+        "Чума Океке"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гога Бітадзе",
+      "synonyms": [
+        "Гога Бітадзе"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Моріц Вагнер",
+      "synonyms": [
+        "Моріц Вагнер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Венделл Картер молодший",
+      "synonyms": [
+        "Венделл Картер молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джонатан Ісаак",
+      "synonyms": [
+        "Джонатан Ісаак"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Маркелл Фульц",
+      "synonyms": [
+        "Маркелл Фульц"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Колбі Джонс",
+      "synonyms": [
+        "Колбі Джонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кріс Дуарте",
+      "synonyms": [
+        "Кріс Дуарте"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деонте Бертон",
+      "synonyms": [
+        "Деонте Бертон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джо Інглс",
+      "synonyms": [
+        "Джо Інглс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гері Харріс",
+      "synonyms": [
+        "Гері Харріс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джет Говард",
+      "synonyms": [
+        "Джет Говард"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ентоні Блек",
+      "synonyms": [
+        "Ентоні Блек"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деквон Плоуден",
+      "synonyms": [
+        "Деквон Плоуден"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Калеб Х'юстон",
+      "synonyms": [
+        "Калеб Х'юстон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Паоло Банчеро",
+      "synonyms": [
+        "Паоло Банчеро"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мак МакКланг",
+      "synonyms": [
+        "Мак МакКланг"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейлен Саггс",
+      "synonyms": [
+        "Джейлен Саггс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Франц Вагнер",
+      "synonyms": [
+        "Франц Вагнер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кевон Гарріс",
+      "synonyms": [
+        "Кевон Гарріс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тревелін Квін",
+      "synonyms": [
+        "Тревелін Квін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Коул Ентоні",
+      "synonyms": [
+        "Коул Ентоні"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кхем Берч",
+      "synonyms": [
+        "Кхем Берч"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Віктор Вембаньяма",
+      "synonyms": [
+        "Віктор Вембаньяма"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Рис Сір'Джабарі",
+      "synonyms": [
+        "Рис Сір'Джабарі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Сіді Чіссоко",
+      "synonyms": [
+        "Сіді Чіссоко"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Чарльз Бедіако",
+      "synonyms": [
+        "Чарльз Бедіако"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Домінік Барлоу",
+      "synonyms": [
+        "Домінік Барлоу"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джамарі Буйя",
+      "synonyms": [
+        "Джамарі Буйя"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джеремі Сохань",
+      "synonyms": [
+        "Джеремі Сохань"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Блейк Веслі",
+      "synonyms": [
+        "Блейк Веслі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Малакі Бранхам",
+      "synonyms": [
+        "Малакі Бранхам"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джуліан Шампаньє",
+      "synonyms": [
+        "Джуліан Шампаньє"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Сандро Мамукелашвілі",
+      "synonyms": [
+        "Сандро Мамукелашвілі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Райкуан Грей",
+      "synonyms": [
+        "Райкуан Грей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Девід Дюк",
+      "synonyms": [
+        "Девід Дюк"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Чарльз Бассі",
+      "synonyms": [
+        "Чарльз Бассі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Коллін Секстон",
+      "synonyms": [
+        "Коллін Секстон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джон Коллінс",
+      "synonyms": [
+        "Джон Коллінс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кріс Данн",
+      "synonyms": [
+        "Кріс Данн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джоел Ембіід",
+      "synonyms": [
+        "Джоел Ембіід"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тобіас Харріс",
+      "synonyms": [
+        "Тобіас Харріс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Денні Грін",
+      "synonyms": [
+        "Денні Грін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Рікі Каунсіл IV",
+      "synonyms": [
+        "Рікі Каунсіл IV"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Терквавіон Сміт",
+      "synonyms": [
+        "Терквавіон Сміт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джавонте Смарт",
+      "synonyms": [
+        "Джавонте Смарт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кай Джонс",
+      "synonyms": [
+        "Кай Джонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джефф Доутін",
+      "synonyms": [
+        "Джефф Доутін"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кеньйон Мартін молодший",
+      "synonyms": [
+        "Кеньйон Мартін молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Пол Рід",
+      "synonyms": [
+        "Пол Рід"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тайріз Максій",
+      "synonyms": [
+        "Тайріз Максій"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Де'Ентоні Мелтон",
+      "synonyms": [
+        "Де'Ентоні Мелтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мо Бамба",
+      "synonyms": [
+        "Мо Бамба"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ді Джей Вілсон",
+      "synonyms": [
+        "Ді Джей Вілсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дануел Хаус",
+      "synonyms": [
+        "Дануел Хаус"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Фуркан Коркмаз",
+      "synonyms": [
+        "Фуркан Коркмаз"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бадді Хілд",
+      "synonyms": [
+        "Бадді Хілд"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кемерон Пейн",
+      "synonyms": [
+        "Кемерон Пейн"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Келлі Убре",
+      "synonyms": [
+        "Келлі Убре"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Юсуф Нуркіч",
+      "synonyms": [
+        "Юсуф Нуркіч"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бредлі Біл",
+      "synonyms": [
+        "Бредлі Біл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ерік Гордон",
+      "synonyms": [
+        "Ерік Гордон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кевін Дюрант",
+      "synonyms": [
+        "Кевін Дюрант"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "I. Томас",
+      "synonyms": [
+        "I. Томас"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Девід Родді",
+      "synonyms": [
+        "Девід Родді"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Іш Уейнрайт",
+      "synonyms": [
+        "Іш Уейнрайт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Сабен Лі",
+      "synonyms": [
+        "Сабен Лі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тео Маледон",
+      "synonyms": [
+        "Тео Маледон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Нассір Літтл",
+      "synonyms": [
+        "Нассір Літтл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Бол Бол",
+      "synonyms": [
+        "Бол Бол"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дрю Юбенкс",
+      "synonyms": [
+        "Дрю Юбенкс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джош Окогі",
+      "synonyms": [
+        "Джош Окогі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Удока Азубуйке",
+      "synonyms": [
+        "Удока Азубуйке"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Грейсон Аллен",
+      "synonyms": [
+        "Грейсон Аллен"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ройс О'Ніл",
+      "synonyms": [
+        "Ройс О'Ніл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Девін Букер",
+      "synonyms": [
+        "Девін Букер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Матісс Тібул",
+      "synonyms": [
+        "Матісс Тібул"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Мозес Браун",
+      "synonyms": [
+        "Мозес Браун"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Роберт Вільямс III",
+      "synonyms": [
+        "Роберт Вільямс III"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Деандре Ейтон",
+      "synonyms": [
+        "Деандре Ейтон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Анферні Саймонс",
+      "synonyms": [
+        "Анферні Саймонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Малкольм Брогдон",
+      "synonyms": [
+        "Малкольм Брогдон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кіган Мюррей",
+      "synonyms": [
+        "Кіган Мюррей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Філіп Петрушев",
+      "synonyms": [
+        "Філіп Петрушев"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Де'Аарон Фокс",
+      "synonyms": [
+        "Де'Аарон Фокс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тре Джонс",
+      "synonyms": [
+        "Тре Джонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордж Кондіт IV",
+      "synonyms": [
+        "Джордж Кондіт IV"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тейз Мур",
+      "synonyms": [
+        "Тейз Мур"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джерамі Грант",
+      "synonyms": [
+        "Джерамі Грант"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Р. Руперт.",
+      "synonyms": [
+        "Р. Руперт."
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дуоп Реат",
+      "synonyms": [
+        "Дуоп Реат"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кріс Мюррей",
+      "synonyms": [
+        "Кріс Мюррей"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тумані Камара",
+      "synonyms": [
+        "Тумані Камара"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ібу Баджі",
+      "synonyms": [
+        "Ібу Баджі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джастін Міная",
+      "synonyms": [
+        "Джастін Міная"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джабарі Вокер",
+      "synonyms": [
+        "Джабарі Вокер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Шедон Шарп",
+      "synonyms": [
+        "Шедон Шарп"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Скут Гендерсон",
+      "synonyms": [
+        "Скут Гендерсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Далано Бентон",
+      "synonyms": [
+        "Далано Бентон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ештон Хаганс",
+      "synonyms": [
+        "Ештон Хаганс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Отто Портер",
+      "synonyms": [
+        "Отто Портер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Келлі Оліник",
+      "synonyms": [
+        "Келлі Оліник"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гарретт Темпл",
+      "synonyms": [
+        "Гарретт Темпл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Таддеус Янг",
+      "synonyms": [
+        "Таддеус Янг"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "M. Вільямс",
+      "synonyms": [
+        "M. Вільямс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Маркквіс Новелл",
+      "synonyms": [
+        "Маркквіс Новелл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Грейді Дік",
+      "synonyms": [
+        "Грейді Дік"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Муамаду Гує",
+      "synonyms": [
+        "Муамаду Гує"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джевон Фрімен-Ліберті",
+      "synonyms": [
+        "Джевон Фрімен-Ліберті"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Рон Гарпер молодший",
+      "synonyms": [
+        "Рон Гарпер молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "DJ Картон",
+      "synonyms": [
+        "DJ Картон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Макур Мейкер",
+      "synonyms": [
+        "Макур Мейкер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Скотті Барнс",
+      "synonyms": [
+        "Скотті Барнс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Очай Агбаджі",
+      "synonyms": [
+        "Очай Агбаджі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Іммануїл Квіклі",
+      "synonyms": [
+        "Іммануїл Квіклі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джамі'юс Ремсі",
+      "synonyms": [
+        "Джамі'юс Ремсі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордан Нвора",
+      "synonyms": [
+        "Джордан Нвора"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "RJ Барретт",
+      "synonyms": [
+        "RJ Барретт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Гарі Трент молодший",
+      "synonyms": [
+        "Гарі Трент молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джонтей Портер",
+      "synonyms": [
+        "Джонтей Портер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брюс Браун молодший",
+      "synonyms": [
+        "Брюс Браун молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кобі Сіммонс",
+      "synonyms": [
+        "Кобі Сіммонс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кріс Буше",
+      "synonyms": [
+        "Кріс Буше"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Паскаль Сіакам",
+      "synonyms": [
+        "Паскаль Сіакам"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Якоб Пелтль",
+      "synonyms": [
+        "Якоб Пелтль"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джордан Кларксон",
+      "synonyms": [
+        "Джордан Кларксон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Брайс Сенсабо",
+      "synonyms": [
+        "Брайс Сенсабо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Таевіон Кінсі",
+      "synonyms": [
+        "Таевіон Кінсі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тейлор Гендрікс",
+      "synonyms": [
+        "Тейлор Гендрікс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кейонт Джордж",
+      "synonyms": [
+        "Кейонт Джордж"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Симона Фонтеккіо",
+      "synonyms": [
+        "Симона Фонтеккіо"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кеннет Лофтон молодший",
+      "synonyms": [
+        "Кеннет Лофтон молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Вокер Кесслер",
+      "synonyms": [
+        "Вокер Кесслер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Міка Поттер",
+      "synonyms": [
+        "Міка Поттер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джейсон Престон",
+      "synonyms": [
+        "Джейсон Престон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Омер Юрцевен",
+      "synonyms": [
+        "Омер Юрцевен"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джонні Юзанг",
+      "synonyms": [
+        "Джонні Юзанг"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джош Крістофер",
+      "synonyms": [
+        "Джош Крістофер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кіра Льюїс молодший",
+      "synonyms": [
+        "Кіра Льюїс молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Лука Саманіч",
+      "synonyms": [
+        "Лука Саманіч"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тален Гортон-Такер",
+      "synonyms": [
+        "Тален Гортон-Такер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Даріус Базлі",
+      "synonyms": [
+        "Даріус Базлі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Лаурі Маркканен",
+      "synonyms": [
+        "Лаурі Маркканен"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ксав'є Кукс",
+      "synonyms": [
+        "Ксав'є Кукс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Тадж Гібсон",
+      "synonyms": [
+        "Тадж Гібсон"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "T. Вукчевич",
+      "synonyms": [
+        "T. Вукчевич"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Білал Кулібалі",
+      "synonyms": [
+        "Білал Кулібалі"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Жуль Бернард",
+      "synonyms": [
+        "Жуль Бернард"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джон Батлер молодший",
+      "synonyms": [
+        "Джон Батлер молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Патрік Болдвін молодший",
+      "synonyms": [
+        "Патрік Болдвін молодший"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джонні Девіс",
+      "synonyms": [
+        "Джонні Девіс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Юджин Оморуї",
+      "synonyms": [
+        "Юджин Оморуї"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Корі Кісперт",
+      "synonyms": [
+        "Корі Кісперт"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джастін Шампаньє",
+      "synonyms": [
+        "Джастін Шампаньє"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ентоні Гілл",
+      "synonyms": [
+        "Ентоні Гілл"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Джаред Батлер",
+      "synonyms": [
+        "Джаред Батлер"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Дені Авдія",
+      "synonyms": [
+        "Дені Авдія"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Ландрі Шамет",
+      "synonyms": [
+        "Ландрі Шамет"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Хаміду Діалло",
+      "synonyms": [
+        "Хаміду Діалло"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Марвін Беглі III",
+      "synonyms": [
+        "Марвін Беглі III"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Кайл Кузьма",
+      "synonyms": [
+        "Кайл Кузьма"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Річард Холмс",
+      "synonyms": [
+        "Річард Холмс"
+      ],
+      "languageCode": "uk"
+    },
+    {
+      "value": "Таюс Джонс",
+      "synonyms": [
+        "Таюс Джонс"
+      ],
+      "languageCode": "uk"
+    }
+  ]
+}
