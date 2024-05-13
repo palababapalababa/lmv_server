@@ -4,15 +4,15 @@ import json
 
 def get_players():
     response = requests.get(
-        "https://api-nba-v1.p.rapidapi.com/players",
-        {"season": 2023, "team": 41},
+        "https://api-nba-v1.p.rapidapi.com/games",
+        {"season": "2023", "h2h": "1-2"},
         headers={
             "X-RapidAPI-Key": "ff32d1011cmsh59f1439a9c9cde6p17aa21jsn5449622bf91b",
             "X-RapidAPI-Host": "api-nba-v1.p.rapidapi.com",
         },
     )
     print(response.raw)
-    with open("player_data.json", "w", encoding="utf-8") as f:
+    with open("team_data.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(response.json()))
 
 
