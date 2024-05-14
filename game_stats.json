@@ -1,0 +1,354 @@
+{
+	"0": {
+		"get": "games/statistics",
+		"parameters": {
+			"id": "12631"
+		},
+		"errors": [],
+		"results": 2,
+		"response": [
+			{
+				"team": {
+					"id": 4,
+					"name": "Brooklyn Nets",
+					"nickname": "Nets",
+					"code": "BKN",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+				},
+				"statistics": [
+					{
+						"fastBreakPoints": null,
+						"pointsInPaint": null,
+						"biggestLead": null,
+						"secondChancePoints": null,
+						"pointsOffTurnovers": null,
+						"longestRun": null,
+						"points": 114,
+						"fgm": 43,
+						"fga": 100,
+						"fgp": "43.0",
+						"ftm": 11,
+						"fta": 17,
+						"ftp": "64.7",
+						"tpm": 17,
+						"tpa": 52,
+						"tpp": "32.7",
+						"offReb": 10,
+						"defReb": 32,
+						"totReb": 42,
+						"assists": 22,
+						"pFouls": 21,
+						"steals": 4,
+						"turnovers": 6,
+						"blocks": 5,
+						"plusMinus": "-10",
+						"min": "240:00"
+					}
+				]
+			},
+			{
+				"team": {
+					"id": 2,
+					"name": "Boston Celtics",
+					"nickname": "Celtics",
+					"code": "BOS",
+					"logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+				},
+				"statistics": [
+					{
+						"fastBreakPoints": null,
+						"pointsInPaint": null,
+						"biggestLead": null,
+						"secondChancePoints": null,
+						"pointsOffTurnovers": null,
+						"longestRun": null,
+						"points": 124,
+						"fgm": 43,
+						"fga": 90,
+						"fgp": "64.7",
+						"ftm": 23,
+						"fta": 27,
+						"ftp": "85.2",
+						"tpm": 15,
+						"tpa": 45,
+						"tpp": "33.3",
+						"offReb": 10,
+						"defReb": 40,
+						"totReb": 50,
+						"assists": 22,
+						"pFouls": 17,
+						"steals": 4,
+						"turnovers": 11,
+						"blocks": 6,
+						"plusMinus": "10",
+						"min": "240:00"
+					}
+				]
+			}
+		]
+	},
+	"1": {
+		"get": "games/statistics",
+		"parameters": {
+			"id": "12670"
+		},
+		"errors": [],
+		"results": 2,
+		"response": [
+			{
+				"team": {
+					"id": 2,
+					"name": "Boston Celtics",
+					"nickname": "Celtics",
+					"code": "BOS",
+					"logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+				},
+				"statistics": [
+					{
+						"fastBreakPoints": null,
+						"pointsInPaint": null,
+						"biggestLead": null,
+						"secondChancePoints": null,
+						"pointsOffTurnovers": null,
+						"longestRun": null,
+						"points": 121,
+						"fgm": 41,
+						"fga": 94,
+						"fgp": "43.6",
+						"ftm": 20,
+						"fta": 28,
+						"ftp": "71.4",
+						"tpm": 19,
+						"tpa": 52,
+						"tpp": "36.5",
+						"offReb": 17,
+						"defReb": 35,
+						"totReb": 52,
+						"assists": 29,
+						"pFouls": 13,
+						"steals": 5,
+						"turnovers": 8,
+						"blocks": 3,
+						"plusMinus": "14",
+						"min": "240:00"
+					}
+				]
+			},
+			{
+				"team": {
+					"id": 4,
+					"name": "Brooklyn Nets",
+					"nickname": "Nets",
+					"code": "BKN",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+				},
+				"statistics": [
+					{
+						"fastBreakPoints": null,
+						"pointsInPaint": null,
+						"biggestLead": null,
+						"secondChancePoints": null,
+						"pointsOffTurnovers": null,
+						"longestRun": null,
+						"points": 107,
+						"fgm": 38,
+						"fga": 85,
+						"fgp": "71.4",
+						"ftm": 16,
+						"fta": 18,
+						"ftp": "88.9",
+						"tpm": 15,
+						"tpa": 37,
+						"tpp": "40.5",
+						"offReb": 9,
+						"defReb": 37,
+						"totReb": 46,
+						"assists": 26,
+						"pFouls": 25,
+						"steals": 0,
+						"turnovers": 12,
+						"blocks": 3,
+						"plusMinus": "-14",
+						"min": "240:00"
+					}
+				]
+			}
+		]
+	},
+	"2": {
+		"get": "games/statistics",
+		"parameters": {
+			"id": "13319"
+		},
+		"errors": [],
+		"results": 2,
+		"response": [
+			{
+				"team": {
+					"id": 4,
+					"name": "Brooklyn Nets",
+					"nickname": "Nets",
+					"code": "BKN",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+				},
+				"statistics": [
+					{
+						"fastBreakPoints": null,
+						"pointsInPaint": null,
+						"biggestLead": null,
+						"secondChancePoints": null,
+						"pointsOffTurnovers": null,
+						"longestRun": null,
+						"points": 110,
+						"fgm": 39,
+						"fga": 79,
+						"fgp": "49.4",
+						"ftm": 17,
+						"fta": 26,
+						"ftp": "65.4",
+						"tpm": 15,
+						"tpa": 33,
+						"tpp": "45.5",
+						"offReb": 7,
+						"defReb": 30,
+						"totReb": 37,
+						"assists": 28,
+						"pFouls": 21,
+						"steals": 6,
+						"turnovers": 12,
+						"blocks": 3,
+						"plusMinus": "-8",
+						"min": "240:00"
+					}
+				]
+			},
+			{
+				"team": {
+					"id": 2,
+					"name": "Boston Celtics",
+					"nickname": "Celtics",
+					"code": "BOS",
+					"logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+				},
+				"statistics": [
+					{
+						"fastBreakPoints": null,
+						"pointsInPaint": null,
+						"biggestLead": null,
+						"secondChancePoints": null,
+						"pointsOffTurnovers": null,
+						"longestRun": null,
+						"points": 118,
+						"fgm": 43,
+						"fga": 83,
+						"fgp": "65.4",
+						"ftm": 17,
+						"fta": 23,
+						"ftp": "73.9",
+						"tpm": 15,
+						"tpa": 37,
+						"tpp": "40.5",
+						"offReb": 7,
+						"defReb": 32,
+						"totReb": 39,
+						"assists": 31,
+						"pFouls": 24,
+						"steals": 6,
+						"turnovers": 14,
+						"blocks": 1,
+						"plusMinus": "8",
+						"min": "240:00"
+					}
+				]
+			}
+		]
+	},
+	"3": {
+		"get": "games/statistics",
+		"parameters": {
+			"id": "13328"
+		},
+		"errors": [],
+		"results": 2,
+		"response": [
+			{
+				"team": {
+					"id": 2,
+					"name": "Boston Celtics",
+					"nickname": "Celtics",
+					"code": "BOS",
+					"logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+				},
+				"statistics": [
+					{
+						"fastBreakPoints": null,
+						"pointsInPaint": null,
+						"biggestLead": null,
+						"secondChancePoints": null,
+						"pointsOffTurnovers": null,
+						"longestRun": null,
+						"points": 136,
+						"fgm": 52,
+						"fga": 91,
+						"fgp": "57.1",
+						"ftm": 10,
+						"fta": 12,
+						"ftp": "83.3",
+						"tpm": 22,
+						"tpa": 45,
+						"tpp": "48.9",
+						"offReb": 10,
+						"defReb": 41,
+						"totReb": 51,
+						"assists": 32,
+						"pFouls": 13,
+						"steals": 6,
+						"turnovers": 10,
+						"blocks": 5,
+						"plusMinus": "50",
+						"min": "240:00"
+					}
+				]
+			},
+			{
+				"team": {
+					"id": 4,
+					"name": "Brooklyn Nets",
+					"nickname": "Nets",
+					"code": "BKN",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+				},
+				"statistics": [
+					{
+						"fastBreakPoints": null,
+						"pointsInPaint": null,
+						"biggestLead": null,
+						"secondChancePoints": null,
+						"pointsOffTurnovers": null,
+						"longestRun": null,
+						"points": 86,
+						"fgm": 31,
+						"fga": 81,
+						"fgp": "83.3",
+						"ftm": 14,
+						"fta": 15,
+						"ftp": "93.3",
+						"tpm": 10,
+						"tpa": 31,
+						"tpp": "32.3",
+						"offReb": 6,
+						"defReb": 25,
+						"totReb": 31,
+						"assists": 27,
+						"pFouls": 12,
+						"steals": 5,
+						"turnovers": 12,
+						"blocks": 1,
+						"plusMinus": "-50",
+						"min": "240:00"
+					}
+				]
+			}
+		]
+	}
+}

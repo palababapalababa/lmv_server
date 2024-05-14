@@ -1,0 +1,331 @@
+{
+	"get": "games/",
+	"parameters": {
+		"season": "2023",
+		"h2h": "4-2"
+	},
+	"errors": [],
+	"results": 4,
+	"response": [
+		{
+			"id": 12631,
+			"league": "standard",
+			"season": 2023,
+			"date": {
+				"start": "2023-11-05T00:00:00.000Z",
+				"end": null,
+				"duration": null
+			},
+			"stage": 2,
+			"status": {
+				"clock": null,
+				"halftime": false,
+				"short": 3,
+				"long": "Finished"
+			},
+			"periods": {
+				"current": 4,
+				"total": 4,
+				"endOfPeriod": false
+			},
+			"arena": {
+				"name": "Barclays Center",
+				"city": "Brooklyn",
+				"state": "NY",
+				"country": null
+			},
+			"teams": {
+				"visitors": {
+					"id": 2,
+					"name": "Boston Celtics",
+					"nickname": "Celtics",
+					"code": "BOS",
+					"logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+				},
+				"home": {
+					"id": 4,
+					"name": "Brooklyn Nets",
+					"nickname": "Nets",
+					"code": "BKN",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+				}
+			},
+			"scores": {
+				"visitors": {
+					"win": 0,
+					"loss": 0,
+					"series": {
+						"win": 0,
+						"loss": 0
+					},
+					"linescore": [
+						"34",
+						"36",
+						"21",
+						"33"
+					],
+					"points": 124
+				},
+				"home": {
+					"win": 0,
+					"loss": 0,
+					"series": {
+						"win": 0,
+						"loss": 0
+					},
+					"linescore": [
+						"34",
+						"24",
+						"30",
+						"26"
+					],
+					"points": 114
+				}
+			},
+			"officials": [],
+			"timesTied": null,
+			"leadChanges": null,
+			"nugget": null
+		},
+		{
+			"id": 12670,
+			"league": "standard",
+			"season": 2023,
+			"date": {
+				"start": "2023-11-11T00:30:00.000Z",
+				"end": null,
+				"duration": null
+			},
+			"stage": 2,
+			"status": {
+				"clock": null,
+				"halftime": false,
+				"short": 3,
+				"long": "Finished"
+			},
+			"periods": {
+				"current": 4,
+				"total": 4,
+				"endOfPeriod": false
+			},
+			"arena": {
+				"name": "TD Garden",
+				"city": "Boston",
+				"state": "MA",
+				"country": null
+			},
+			"teams": {
+				"visitors": {
+					"id": 4,
+					"name": "Brooklyn Nets",
+					"nickname": "Nets",
+					"code": "BKN",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+				},
+				"home": {
+					"id": 2,
+					"name": "Boston Celtics",
+					"nickname": "Celtics",
+					"code": "BOS",
+					"logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+				}
+			},
+			"scores": {
+				"visitors": {
+					"win": 0,
+					"loss": 0,
+					"series": {
+						"win": 0,
+						"loss": 0
+					},
+					"linescore": [
+						"33",
+						"21",
+						"30",
+						"23"
+					],
+					"points": 107
+				},
+				"home": {
+					"win": 0,
+					"loss": 0,
+					"series": {
+						"win": 0,
+						"loss": 0
+					},
+					"linescore": [
+						"38",
+						"28",
+						"27",
+						"28"
+					],
+					"points": 121
+				}
+			},
+			"officials": [],
+			"timesTied": null,
+			"leadChanges": null,
+			"nugget": null
+		},
+		{
+			"id": 13319,
+			"league": "standard",
+			"season": 2023,
+			"date": {
+				"start": "2024-02-14T00:30:00.000Z",
+				"end": null,
+				"duration": null
+			},
+			"stage": 2,
+			"status": {
+				"clock": null,
+				"halftime": false,
+				"short": 3,
+				"long": "Finished"
+			},
+			"periods": {
+				"current": 4,
+				"total": 4,
+				"endOfPeriod": false
+			},
+			"arena": {
+				"name": "Barclays Center",
+				"city": "Brooklyn",
+				"state": "NY",
+				"country": null
+			},
+			"teams": {
+				"visitors": {
+					"id": 2,
+					"name": "Boston Celtics",
+					"nickname": "Celtics",
+					"code": "BOS",
+					"logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+				},
+				"home": {
+					"id": 4,
+					"name": "Brooklyn Nets",
+					"nickname": "Nets",
+					"code": "BKN",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+				}
+			},
+			"scores": {
+				"visitors": {
+					"win": 0,
+					"loss": 0,
+					"series": {
+						"win": 0,
+						"loss": 0
+					},
+					"linescore": [
+						"36",
+						"36",
+						"26",
+						"20"
+					],
+					"points": 118
+				},
+				"home": {
+					"win": 0,
+					"loss": 0,
+					"series": {
+						"win": 0,
+						"loss": 0
+					},
+					"linescore": [
+						"30",
+						"27",
+						"25",
+						"28"
+					],
+					"points": 110
+				}
+			},
+			"officials": [],
+			"timesTied": null,
+			"leadChanges": null,
+			"nugget": null
+		},
+		{
+			"id": 13328,
+			"league": "standard",
+			"season": 2023,
+			"date": {
+				"start": "2024-02-15T00:30:00.000Z",
+				"end": null,
+				"duration": null
+			},
+			"stage": 2,
+			"status": {
+				"clock": null,
+				"halftime": false,
+				"short": 3,
+				"long": "Finished"
+			},
+			"periods": {
+				"current": 4,
+				"total": 4,
+				"endOfPeriod": false
+			},
+			"arena": {
+				"name": "TD Garden",
+				"city": "Boston",
+				"state": "MA",
+				"country": null
+			},
+			"teams": {
+				"visitors": {
+					"id": 4,
+					"name": "Brooklyn Nets",
+					"nickname": "Nets",
+					"code": "BKN",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/130px-Brooklyn_Nets_newlogo.svg.png"
+				},
+				"home": {
+					"id": 2,
+					"name": "Boston Celtics",
+					"nickname": "Celtics",
+					"code": "BOS",
+					"logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Celtics_de_Boston_logo.svg/1024px-Celtics_de_Boston_logo.svg.png"
+				}
+			},
+			"scores": {
+				"visitors": {
+					"win": 0,
+					"loss": 0,
+					"series": {
+						"win": 0,
+						"loss": 0
+					},
+					"linescore": [
+						"15",
+						"17",
+						"23",
+						"31"
+					],
+					"points": 86
+				},
+				"home": {
+					"win": 0,
+					"loss": 0,
+					"series": {
+						"win": 0,
+						"loss": 0
+					},
+					"linescore": [
+						"30",
+						"38",
+						"33",
+						"35"
+					],
+					"points": 136
+				}
+			},
+			"officials": [],
+			"timesTied": null,
+			"leadChanges": null,
+			"nugget": null
+		}
+	]
+}

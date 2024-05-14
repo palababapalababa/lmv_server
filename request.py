@@ -5,7 +5,7 @@ import json
 def get_players():
     response = requests.get(
         "https://api-nba-v1.p.rapidapi.com/games",
-        {"season": "2023", "h2h": "1-2"},
+        {"season": "2023", "h2h": "4-2"},
         headers={
             "X-RapidAPI-Key": "ff32d1011cmsh59f1439a9c9cde6p17aa21jsn5449622bf91b",
             "X-RapidAPI-Host": "api-nba-v1.p.rapidapi.com",
@@ -14,9 +14,31 @@ def get_players():
     print(response.raw)
     with open("team_data.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(response.json()))
+    games_object = response.json()
+    for game in games_object["response"]:
+        games_list.append(game["id"])
+    get_game_stats()
 
 
+def get_game_stats():
+    for index, id in enumerate(games_list):
+        response = requests.get(
+            "https://api-nba-v1.p.rapidapi.com/games/statistics",
+            {"id": str(id)},
+            headers={
+                "X-RapidAPI-Key": "ff32d1011cmsh59f1439a9c9cde6p17aa21jsn5449622bf91b",
+                "X-RapidAPI-Host": "api-nba-v1.p.rapidapi.com",
+            },
+        )
+        print(response.raw)
+        with open("game_stats.json", "a+", encoding="utf-8") as f:
+            f.write(f'"{index}": ' + json.dumps(response.json()) + ",")
+
+
+games_list = []
 get_players()
+# get_game_stats()
+
 team_list = [
     1,
     2,

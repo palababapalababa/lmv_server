@@ -86,18 +86,10 @@ class Game(models.Model):
     guest_team_3p_pct = models.FloatField("guest team 3p%")
     guest_team_rebounds = models.IntegerField("guest team rebounds")
 
-    mvp_id = models.ForeignKey(
-        Player,
-        on_delete=models.SET_NULL,
-        verbose_name="MVP of the game",
-        null=True,
-        blank=True,
-    )
-
     def __str__(self) -> str:
         return (
-            f"{Team.objects.get(id=self.home_team_id).name} ({self.home_team_score}) - "
-            + f"({self.guest_team_score}) {Team.objects.get(id=self.guest_team_id).name}"
+            f"{self.home_team_id} ({self.home_team_score}) - "
+            + f"({self.guest_team_score}) {self.guest_team_id} | {self.date_time}"
         )
 
     class Meta:
