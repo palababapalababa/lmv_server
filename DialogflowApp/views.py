@@ -17,6 +17,7 @@ def hello_request(request):
 # Provides general information about "team".
 # "team" is gotten by intent parameter
 def get_team_description(request):
+    print(json.loads(request.body), end="\n\n")
     team_name = json.loads(request.body)["intentInfo"]["parameters"]["team"][
         "resolvedValue"
     ]
@@ -40,6 +41,7 @@ def get_team_description(request):
 # Provides general information about "player".
 # "player" is gotten by intent parameter
 def get_player_description(request):
+    print(json.loads(request.body), end="\n\n")
     playerName = json.loads(request.body)["intentInfo"]["parameters"]["player"][
         "resolvedValue"
     ]
@@ -65,10 +67,10 @@ def get_player_description(request):
 # Provides actual squad of "team".
 # "team" is gotten by intent parameter
 def get_team_squad(request):
+    print(json.loads(request.body), end="\n\n")
     team_name = json.loads(request.body)["intentInfo"]["parameters"]["team"][
         "resolvedValue"
     ]
-    print(json.loads(request.body))
     response_text, id_list = get_team_squad_response_text(team_name)
     return JsonResponse(
         {
@@ -90,18 +92,30 @@ def get_team_squad(request):
 # Provides general information about "player" by it's ordinal in teamSquadList parameter.
 # All parameters is gotten as session parameters
 def get_player_description_by_ordinal(request):
+    print(json.loads(request.body), end="\n\n")
     json_request = json.loads(request.body)
     team_name = json_request["sessionInfo"]["parameters"]["team"]
+    id_list = json_request["sessionInfo"]["parameters"]["teamSquadList"]
     order = None
     if "ordinal" in json_request["sessionInfo"]["parameters"]:
-        order = int(json.loads(request.body)["sessionInfo"]["parameters"]["ordinal"])
+        order = int(json_request["sessionInfo"]["parameters"]["ordinal"])
     elif "number" in json_request["sessionInfo"]["parameters"]:
-        order = int(json.loads(request.body)["sessionInfo"]["parameters"]["number"])
-    player = Player.objects.get(
-        id=json.loads(request.body)["sessionInfo"]["parameters"]["teamSquadList"][
-            order - 1
-        ]
-    )
+        order = int(json_request["sessionInfo"]["parameters"]["number"])
+    if order < 1 or order > len(id_list):
+        return JsonResponse(
+            {
+                "fulfillment_response": {
+                    "messages": [
+                        {
+                            "text": {
+                                "text": ["Неправильний порядковий номер"],
+                            },
+                        },
+                    ],
+                },
+            }
+        )
+    player = Player.objects.get(id=id_list[order - 1])
     response_text = player_description_string(player)
     return JsonResponse(
         {
@@ -119,6 +133,7 @@ def get_player_description_by_ordinal(request):
 
 
 def get_team_description_from_squad(request):
+    print(json.loads(request.body), end="\n\n")
     team_name = json.loads(request.body)["sessionInfo"]["parameters"]["team"]
     team = Team.objects.get(name=team_name)
     return JsonResponse(
@@ -137,6 +152,7 @@ def get_team_description_from_squad(request):
 
 
 def get_team_squad_from_description(request):
+    print(json.loads(request.body), end="\n\n")
     team_name = json.loads(request.body)["sessionInfo"]["parameters"]["team"]
     response_text, id_list = get_team_squad_response_text(team_name)
     return JsonResponse(
@@ -156,11 +172,16 @@ def get_team_squad_from_description(request):
 
 
 def get_team_games(request):
+    print(json.loads(request.body), end="\n\n")
     team_name = json.loads(request.body)["sessionInfo"]["parameters"]["team"]
-    amount = json.loads(request.body)["sessionInfo"]["parameters"]["number"]
+    amount = int(json.loads(request.body)["sessionInfo"]["parameters"]["number"])
     id_list = []
     response_text = ""
-    actual_amount = Game.objects.count()
+    game_list = Game.objects.filter(
+        Q(home_team_id=Team.objects.get(name=team_name))
+        | Q(guest_team_id=Team.objects.get(name=team_name))
+    )
+    actual_amount = len(game_list)
     if actual_amount == 0:
         return JsonResponse(
             {
@@ -193,12 +214,10 @@ def get_team_games(request):
     elif amount > actual_amount:
         amount = actual_amount
         response_text += f"У базі на даний момент лише {actual_amount} записів про ігри команди\n\nОсь записи останніх {actual_amount} матчів: \n"
-    game_list = Game.objects.filter(
-        Q(home_team_id=Team.objects.get(name=team_name))
-        | Q(guest_team_id=Team.objects.get(name=team_name))
-    )[:amount]
+    game_list = game_list[:amount]
     for index, game in enumerate(game_list):
         response_text += f"{index+1}. {game}\n"
+        id_list.append(game.id)
     return JsonResponse(
         {
             "fulfillment_response": {
@@ -213,6 +232,104 @@ def get_team_games(request):
             "sessionInfo": {"parameters": {"teamGamesList": id_list}},
         }
     )
+
+
+def get_game_overview_via_ordinal(request):
+    print(json.loads(request.body), end="\n\n")
+    json_request = json.loads(request.body)
+    order = int(json_request["sessionInfo"]["parameters"]["number"])
+    id_list = json_request["sessionInfo"]["parameters"]["teamGamesList"]
+    if order < 1 or order > len(id_list):
+        return JsonResponse(
+            {
+                "fulfillment_response": {
+                    "messages": [
+                        {
+                            "text": {
+                                "text": ["Неправильний порядковий номер"],
+                            },
+                        },
+                    ],
+                },
+            }
+        )
+
+    game = Game.objects.get(id=id_list[order - 1])
+    response_text = str(game) + "\n"
+    response_text += f"Стадіон: {game.home_team_id.stadium}\n\n"
+    response_text += "Результат першої чверті: \n"
+    response_text += (
+        f"{game.home_team_id} ({game.quarter1_home_score})"
+        + f" - ({game.quarter1_guest_score}) {game.guest_team_id}\n"
+    )
+    response_text += "Результат другої чверті: \n"
+    response_text += (
+        f"{game.home_team_id} ({game.quarter2_home_score})"
+        + f" - ({game.quarter2_guest_score}) {game.guest_team_id}\n"
+    )
+    response_text += "Результат третьої чверті: \n"
+    response_text += (
+        f"{game.home_team_id} ({game.quarter3_home_score})"
+        + f" - ({game.quarter3_guest_score}) {game.guest_team_id}\n"
+    )
+    response_text += "Результат останньої чверті: \n"
+    response_text += (
+        f"{game.home_team_id} ({game.quarter4_home_score})"
+        + f" - ({game.quarter4_guest_score}) {game.guest_team_id}\n"
+    )
+    response_text += "\nСпроби:\n"
+    response_text += (
+        f"{game.home_team_id} ({game.home_team_attempts})"
+        + f" - ({game.guest_team_attempts}) {game.guest_team_id}\n"
+    )
+    response_text += "% влучань:\n"
+    response_text += (
+        f"{game.home_team_id} ({game.home_team_field_goal_pct})"
+        + f" - ({game.guest_team_field_goal_pct}) {game.guest_team_id}\n"
+    )
+    response_text += "% 3-очкових влучань:\n"
+    response_text += (
+        f"{game.home_team_id} ({game.home_team_3p_pct})"
+        + f" - ({game.guest_team_3p_pct}) {game.guest_team_id}\n"
+    )
+    response_text += "Підбирання:\n"
+    response_text += (
+        f"{game.home_team_id} ({game.home_team_rebounds})"
+        + f" - ({game.guest_team_rebounds}) {game.guest_team_id}\n"
+    )
+
+    player_stats_collection = PlayerStatisticPerGame.objects.filter(game_id=game)
+    home_squad_list, guest_squad_list = [], []
+    for player_stats in player_stats_collection:
+        if player_stats.player_id.team_id == game.home_team_id:
+            home_squad_list.append(player_stats.player_id.name)
+        else:
+            guest_squad_list.append(player_stats.player_id.name)
+
+    response_text += f"\nСклад {game.home_team_id}:\n"
+    for player in home_squad_list:
+        response_text += f"{player}\n"
+    response_text += f"\nСклад {game.guest_team_id}:\n"
+    for player in guest_squad_list:
+        response_text += f"{player}\n"
+    return JsonResponse(
+        {
+            "fulfillment_response": {
+                "messages": [
+                    {
+                        "text": {
+                            "text": [response_text],
+                        },
+                    },
+                ],
+                "sessionInfo": {"parameters": {"gameId": game.id}},
+            },
+        }
+    )
+
+
+def get_player_statistic(request):
+    pass
 
 
 # Supplier function. Computes final "response_text" and "id_list".
@@ -275,6 +392,8 @@ commands = {
     "team-squad_team-description": get_team_description_from_squad,
     "team-description_team-squad": get_team_squad_from_description,
     "team_team-games": get_team_games,
+    "team-games_game-overview": get_game_overview_via_ordinal,
+    "player_statistic": get_player_statistic,
 }
 
 
@@ -327,7 +446,7 @@ def get_games_data():
         games_object = json.load(f_games)
     with open("game_stats.json", "r", encoding="utf-8") as f_stats:
         stats_object = json.load(f_stats)
-    for i in range(4):
+    for i in range(len(games_object["response"])):
         home_team = Team.objects.get(
             api_id=games_object["response"][i]["teams"]["home"]["id"]
         )
@@ -378,8 +497,66 @@ def get_games_data():
             guest_team_3p_pct=guest_tpp,
             guest_team_rebounds=guest_reb,
         )
+        get_player_statistic_data(str(i))
+
+
+def get_player_statistic_data(index):
+    player_stats_object = None
+    with open("player_stats.json", "r", encoding="utf-8") as f_player:
+        player_stats_object = json.load(f_player)[index]
+    game_id = Game.objects.get(api_id=player_stats_object["parameters"]["game"])
+    if game_id == None:
+        return
+    response_list = player_stats_object["response"]
+    for player in response_list:
+        player_id = Player.objects.get(api_id=player["player"]["id"])
+        scored_points = player["points"]
+        minutes_on_field = player["min"]
+        position = player["pos"]
+        fgm = player["fgm"]
+        fga = player["fga"]
+        fgp = player["fgp"]
+        ftm = player["ftm"]
+        fta = player["fta"]
+        ftp = player["ftp"]
+        tpm = player["tpm"]
+        tpa = player["tpa"]
+        tpp = player["tpp"]
+        offReb = player["offReb"]
+        defReb = player["defReb"]
+        totReb = player["totReb"]
+        assists = player["assists"]
+        pFouls = player["pFouls"]
+        steals = player["steals"]
+        turnovers = player["turnovers"]
+        blocks = player["blocks"]
+        PlayerStatisticPerGame.objects.create(
+            game_id=game_id,
+            player_id=player_id,
+            scored_points=scored_points,
+            minutes_on_field=minutes_on_field,
+            position=position,
+            fgm=fgm,
+            fga=fga,
+            fgp=fgp,
+            ftm=ftm,
+            fta=fta,
+            ftp=ftp,
+            tpm=tpm,
+            tpa=tpa,
+            tpp=tpp,
+            offReb=offReb,
+            defReb=defReb,
+            totReb=totReb,
+            assists=assists,
+            pFouls=pFouls,
+            steals=steals,
+            turnovers=turnovers,
+            blocks=blocks,
+        )
 
 
 # get_json_file()
 # get_player_data()
 # get_games_data()
+# get_player_statistic_data()

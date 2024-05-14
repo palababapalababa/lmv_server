@@ -101,7 +101,6 @@ class PlayerStatisticPerGame(models.Model):
         Player, on_delete=models.CASCADE, verbose_name="player id"
     )
     game_id = models.ForeignKey(Game, on_delete=models.CASCADE, verbose_name="game id")
-    api_id = models.IntegerField("id for api identification")
     scored_points = models.IntegerField("amount of scored points")
     minutes_on_field = models.CharField(
         max_length=10, verbose_name="players time on field"
@@ -120,7 +119,10 @@ class PlayerStatisticPerGame(models.Model):
     defReb = models.IntegerField("defensive rebounds")
     totReb = models.IntegerField("total rebounds")
     assists = models.IntegerField("total assists")
-    pFoulds = models.IntegerField("personal fouls")
+    pFouls = models.IntegerField("personal fouls")
     steals = models.IntegerField("steals")
     turnovers = models.IntegerField("turnovers")
     blocks = models.IntegerField("blocks")
+
+    def __str__(self):
+        return f"{self.player_id} | {self.game_id}"
