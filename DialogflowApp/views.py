@@ -183,17 +183,28 @@ def get_team_games(request):
     )
     actual_amount = len(game_list)
     if actual_amount == 0:
+        teams = {game.home_team_id.name for game in Game.objects.all()}
+        teams.update({game.guest_team_id.name for game in Game.objects.all()})
+        response_text = "В базі немає записів про ігри цієї команди\n"
+        response_text += f"Наразі в базі є записи про ігри наступних команд: "
+        for i, value in enumerate(teams):
+            response_text += value
+            if i + 1 < len(teams):
+                response_text += ", "
+            else:
+                response_text += "\n"
         return JsonResponse(
             {
                 "fulfillment_response": {
                     "messages": [
                         {
                             "text": {
-                                "text": ["В базі немає записів про ігри цієї команди"],
+                                "text": [response_text],
                             },
                         },
                     ],
                 },
+                "sessionInfo": {"parameters": {"teamGamesList": []}},
             }
         )
     elif amount > 10 and actual_amount >= 10:
@@ -218,6 +229,7 @@ def get_team_games(request):
     for index, game in enumerate(game_list):
         response_text += f"{index+1}. {game}\n"
         id_list.append(game.id)
+    print(id_list)
     return JsonResponse(
         {
             "fulfillment_response": {
@@ -312,6 +324,7 @@ def get_game_overview_via_ordinal(request):
     response_text += f"\nСклад {game.guest_team_id}:\n"
     for player in guest_squad_list:
         response_text += f"{player}\n"
+    print(game.id)
     return JsonResponse(
         {
             "fulfillment_response": {
@@ -322,16 +335,103 @@ def get_game_overview_via_ordinal(request):
                         },
                     },
                 ],
-                "sessionInfo": {"parameters": {"gameId": game.id}},
             },
+            "sessionInfo": {"parameters": {"gameId": game.id}},
         }
     )
 
 
 def get_player_statistic(request):
-    pass
+    print(json.loads(request.body), end="\n\n")
+    json_request = json.loads(request.body)
+    print(print(json_request))
+    player = Player.objects.get(
+        name=json_request["sessionInfo"]["parameters"]["player"]
+    )
+    game = Game.objects.get(id=json_request["sessionInfo"]["parameters"]["gameId"])
+    try:
+        statistic = PlayerStatisticPerGame.objects.get(player_id=player, game_id=game)
+    except PlayerStatisticPerGame.DoesNotExist:
+        return JsonResponse(
+            {
+                "fulfillment_response": {
+                    "messages": [
+                        {
+                            "text": {
+                                "text": [f"{player} не брав участі у цьому матчі"],
+                            },
+                        },
+                    ],
+                },
+            }
+        )
+    response_text = f"{player}\n"
+    response_text += f"Позиція: {statistic.position}\n"
+    response_text += f"Набрано очок: {statistic.scored_points}\n"
+    response_text += f"Хвилин на полі: {statistic.minutes_on_field}\n"
+    response_text += f"FGM: {statistic.fgm}\n"
+    response_text += f"FGA: {statistic.fga}\n"
+    response_text += f"FG%: {statistic.fgp}%\n"
+    response_text += f"FTM: {statistic.ftm}\n"
+    response_text += f"FTA: {statistic.fta}\n"
+    response_text += f"FT%: {statistic.ftp}%\n"
+    response_text += f"3PM: {statistic.tpm}\n"
+    response_text += f"3PA: {statistic.tpa}\n"
+    response_text += f"3P%: {statistic.tpp}%\n"
+    response_text += f"Підбори у нападі:{statistic.offReb}\n"
+    response_text += f"Підбори у захисті:{statistic.defReb}\n"
+    response_text += f"Підбори загалом:{statistic.totReb}\n"
+    response_text += f"Асисти: {statistic.assists}\n"
+    response_text += f"Фоли: {statistic.pFouls}\n"
+    response_text += f"Відбори: {statistic.steals}\n"
+    response_text += f"Втрати: {statistic.turnovers}\n"
+    response_text += f"Блоки: {statistic.blocks}\n"
+    return JsonResponse(
+        {
+            "fulfillment_response": {
+                "messages": [
+                    {
+                        "text": {
+                            "text": [response_text],
+                        },
+                    },
+                ],
+            },
+        }
+    )
 
 
+def get_games_by_date(request):
+    print(json.loads(request.body))
+    json_request = json.loads(request.body)
+    date = json_request["sessionInfo"]["parameters"]["date"]
+    games = Game.objects.filter(
+        date_time__date=f"{int(date['year'])}-{int(date['month'])}-{int(date['day'])}"
+    )
+    if len(games) == 0:
+        return JsonResponse(
+            {
+                "fulfillment_response": {
+                    "messages": [
+                        {
+                            "text": {
+                                "text": [f"Ігор за датою {json_request["sessionInfo"]["parameters"]["date"]} не знайдено"],
+                            },
+                        },
+                    ],
+                },
+            }
+        )
+    if len(games) == 1:
+        games=games[0]
+        json_request['sessionInfo']={'parameters':{'number' : "1", 'teamGamesList':[games.id]}}
+        modified_request = RequestChanger(json.dumps(json_request))
+        json_response = json.loads(get_game_overview_via_ordinal(modified_request).content)
+        json_response['sessionInfo'] = {'parameters' : {"number" : 1, "teamGamesList": [games.id]}}
+        json_response['targetPage'] = "projects/nbachatbot-422409/locations/global/agents/8cf66e84-74d4-4af3-9878-97f440453838/flows/fb17bbcd-0bba-44b8-a877-a0d77ecd2e79/pages/ea79b99b-fc59-4aa7-ac8b-ae9727d3b59f"
+        return JsonResponse(json_response)
+    else:
+        pass
 # Supplier function. Computes final "response_text" and "id_list".
 # "response_text" - response for intents asking for team squad.
 # "id_list" - list of players' IDs
@@ -394,6 +494,7 @@ commands = {
     "team_team-games": get_team_games,
     "team-games_game-overview": get_game_overview_via_ordinal,
     "player_statistic": get_player_statistic,
+    "get_games_by_date": get_games_by_date,
 }
 
 
@@ -560,3 +661,7 @@ def get_player_statistic_data(index):
 # get_player_data()
 # get_games_data()
 # get_player_statistic_data()
+
+class RequestChanger:
+    def __init__(self, body):
+        self.body = body
