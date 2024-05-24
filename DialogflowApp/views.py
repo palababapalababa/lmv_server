@@ -6,12 +6,25 @@ from django.contrib.auth import get_user_model
 from django.http import JsonResponse
 from django.db.models.query import Q
 from .models import *
+from .exceptions import *
 import json
 
 
 def hello_request(request):
-    return commands[json.loads(request.body)["fulfillmentInfo"]["tag"]](request)
-
+    try:
+        return commands[json.loads(request.body)["fulfillmentInfo"]["tag"]](request)
+    except NoTeamProvidedException or AllGamesPresentException as e:
+        return JsonResponse({
+            "fulfillment_response": {
+                "messages": [
+                    {
+                        "text": {
+                            "text": [str(e)],
+                        },
+                    },
+                ],
+            },
+        })
 
 # Webhook-callable function, triggers with "team-description" tag.
 # Provides general information about "team".
@@ -94,7 +107,6 @@ def get_team_squad(request):
 def get_player_description_by_ordinal(request):
     print(json.loads(request.body), end="\n\n")
     json_request = json.loads(request.body)
-    team_name = json_request["sessionInfo"]["parameters"]["team"]
     id_list = json_request["sessionInfo"]["parameters"]["teamSquadList"]
     order = None
     if "ordinal" in json_request["sessionInfo"]["parameters"]:
@@ -132,9 +144,14 @@ def get_player_description_by_ordinal(request):
     )
 
 
-def get_team_description_from_squad(request):
+# Webhook-callable function, triggers with "team-*_team-description" tag.
+# Same as get_team_description, just with already known team, given from session parameter
+def get_known_team_description(request):
     print(json.loads(request.body), end="\n\n")
-    team_name = json.loads(request.body)["sessionInfo"]["parameters"]["team"]
+    try:
+        team_name = json.loads(request.body)["sessionInfo"]["parameters"]["team"]
+    except:
+        raise NoTeamProvidedException()
     team = Team.objects.get(name=team_name)
     return JsonResponse(
         {
@@ -151,9 +168,14 @@ def get_team_description_from_squad(request):
     )
 
 
-def get_team_squad_from_description(request):
+# Webhook-callable function, triggers with "team-*_team-squad" tag.
+# Same as get_team_squad, just with already known team, given from session parameter
+def get_known_team_squad(request):
     print(json.loads(request.body), end="\n\n")
-    team_name = json.loads(request.body)["sessionInfo"]["parameters"]["team"]
+    try:
+        team_name = json.loads(request.body)["sessionInfo"]["parameters"]["team"]
+    except:
+        raise NoTeamProvidedException()
     response_text, id_list = get_team_squad_response_text(team_name)
     return JsonResponse(
         {
@@ -171,16 +193,28 @@ def get_team_squad_from_description(request):
     )
 
 
+# Webhook-callable function, triggers with "team-games" tag.
+# Provides list of the last 'n' games of the team.
+# ID's of the games are set in the 'teamGamesList' session parameter
 def get_team_games(request):
     print(json.loads(request.body), end="\n\n")
+
+    if json.loads(request.body)['intentInfo']['displayName'] == 'ask_more_games':
+        raise AllGamesPresentException()
+
     team_name = json.loads(request.body)["sessionInfo"]["parameters"]["team"]
-    amount = int(json.loads(request.body)["sessionInfo"]["parameters"]["number"])
-    id_list = []
-    response_text = ""
+    
     game_list = Game.objects.filter(
         Q(home_team_id=Team.objects.get(name=team_name))
         | Q(guest_team_id=Team.objects.get(name=team_name))
     )
+    
+    try:
+        amount = int(json.loads(request.body)["intentInfo"]["parameters"]["number"]['resolvedValue'])
+    except:
+        amount = game_list.count() if game_list.count()<10 else 10
+    id_list = []
+    response_text = ""
     actual_amount = len(game_list)
     if actual_amount == 0:
         teams = {game.home_team_id.name for game in Game.objects.all()}
@@ -241,7 +275,7 @@ def get_team_games(request):
                     },
                 ],
             },
-            "sessionInfo": {"parameters": {"teamGamesList": id_list}},
+            "sessionInfo": {"parameters": {"teamGamesList": id_list, "by_date": False}},
         }
     )
 
@@ -404,10 +438,53 @@ def get_player_statistic(request):
 def get_games_by_date(request):
     print(json.loads(request.body))
     json_request = json.loads(request.body)
-    date = json_request["sessionInfo"]["parameters"]["date"]
-    games = Game.objects.filter(
-        date_time__date=f"{int(date['year'])}-{int(date['month'])}-{int(date['day'])}"
-    )
+    date = date_period = None
+    present_games = None
+    original_count = None
+    if 'by_date' in json_request['sessionInfo']['parameters']:
+        by_date = json_request['sessionInfo']['parameters']['by_date']
+        if json_request['intentInfo']['displayName'] == 'ask_more_games' and not by_date:
+            raise AllGamesPresentException()
+    if 'date' in json_request['sessionInfo']['parameters']:
+        date = json_request["sessionInfo"]["parameters"]["date"]
+        day=date['day']
+        month=date['month']
+        year=date['year']
+        games = Game.objects.filter(
+            date_time__date=f"{int(year)}-{int(month)}-{int(day)}"
+        )
+        original_count = games.count()
+        if json_request['intentInfo']['displayName'] == 'ask_more_games':
+            present_games=json_request["sessionInfo"]["parameters"]['teamGamesList']
+            if original_count > 10:
+                games=games[len(present_games):len(present_games)+10]
+        elif original_count > 10:
+            games=games[:10]
+    elif 'date-period' in json_request['sessionInfo']['parameters']:
+        date_period = json_request["sessionInfo"]["parameters"]["date-period"]
+        start_date = f"{int(date_period['startDate']['year'])}-{int(date_period['startDate']['month'])}-{int(date_period['startDate']['day'])}"
+        end_date = f"{int(date_period['endDate']['year'])}-{int(date_period['endDate']['month'])}-{int(date_period['endDate']['day'])}"
+        games = Game.objects.filter(date_time__date__range=(start_date, end_date))
+        original_count = games.count()
+        if json_request['intentInfo']['displayName'] == 'ask_more_games':
+            present_games=json_request["sessionInfo"]["parameters"]['teamGamesList']
+            if len(present_games) >= original_count:
+                raise AllGamesPresentException()
+            if original_count > 10:
+                games=games[len(present_games):len(present_games)+10]
+        elif original_count > 10:
+            games=games[:10]
+    else:
+        games = Game.objects.all()
+        original_count=games.count()
+        if json_request['intentInfo']['displayName'] == 'ask_more_games':
+            present_games=json_request["sessionInfo"]["parameters"]['teamGamesList']
+            if len(present_games) >= original_count:
+                raise AllGamesPresentException()
+            if original_count > 10:
+                games=games[len(present_games):len(present_games)+10]
+        elif original_count > 10:
+            games=games[:10]
     if len(games) == 0:
         return JsonResponse(
             {
@@ -415,7 +492,7 @@ def get_games_by_date(request):
                     "messages": [
                         {
                             "text": {
-                                "text": [f"Ігор за датою {json_request["sessionInfo"]["parameters"]["date"]} не знайдено"],
+                                "text": [f"Ігор за датою {json_request["intentInfo"]["parameters"]["date"]['originalValue']} не знайдено"],
                             },
                         },
                     ],
@@ -431,7 +508,44 @@ def get_games_by_date(request):
         json_response['targetPage'] = "projects/nbachatbot-422409/locations/global/agents/8cf66e84-74d4-4af3-9878-97f440453838/flows/fb17bbcd-0bba-44b8-a877-a0d77ecd2e79/pages/ea79b99b-fc59-4aa7-ac8b-ae9727d3b59f"
         return JsonResponse(json_response)
     else:
-        pass
+        id_list = []
+        if date is not None:
+            response_text = f"Ось дані про ігри за {int(date['day'])}-{int(date['month'])}-{int(date['year'])}: \n\n"
+        elif date_period is not None:
+            response_text = f"Ось дані про ігри за проміжок {int(date_period['startDate']['day'])}-{int(date_period['startDate']['month'])}-{int(date_period['startDate']['year'])} - {int(date_period['endDate']['day'])}-{int(date_period['endDate']['month'])}-{int(date_period['endDate']['year'])}: \n\n"
+        else:
+            response_text = f"Ось дані {len(games)} ігор: \n\n"
+        
+        if present_games is not None:
+            present_games_length = len(present_games)
+            id_list.extend(present_games)
+        else:
+            present_games_length=0
+
+        for index, game in enumerate(games):
+            response_text+=f"{index+1+present_games_length}. {game}\n"
+            id_list.append(game.id)
+
+        if original_count!=len(games):
+            response_text+=f"\n{len(id_list)} - {original_count}"
+        return JsonResponse(
+        {
+            "fulfillment_response": {
+                "messages": [
+                    {
+                        "text": {
+                            "text": [response_text],
+                        },
+                    },
+                ],
+            },
+            "sessionInfo": {"parameters": {"teamGamesList": id_list, "by_date":True}},
+            "targetPage": "projects/nbachatbot-422409/locations/global/agents/8cf66e84-74d4-4af3-9878-97f440453838/flows/fb17bbcd-0bba-44b8-a877-a0d77ecd2e79/pages/f232999a-750f-4f00-a143-fa1bc6804c80",
+        }
+    )
+
+
+
 # Supplier function. Computes final "response_text" and "id_list".
 # "response_text" - response for intents asking for team squad.
 # "id_list" - list of players' IDs
@@ -489,8 +603,8 @@ commands = {
     "player-description": get_player_description,
     "team-squad": get_team_squad,
     "team-squad_player-description": get_player_description_by_ordinal,
-    "team-squad_team-description": get_team_description_from_squad,
-    "team-description_team-squad": get_team_squad_from_description,
+    "team_team-description": get_known_team_description,
+    "team_team-squad": get_known_team_squad,
     "team_team-games": get_team_games,
     "team-games_game-overview": get_game_overview_via_ordinal,
     "player_statistic": get_player_statistic,
